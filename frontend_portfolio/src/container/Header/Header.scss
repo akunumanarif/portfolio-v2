@@ -59,6 +59,12 @@
 	align-items: flex-end;
 	flex-direction: column;
 
+	.badge-cmp {
+		.head-text {
+			font-size: medium;
+		}
+	}
+
 	.badge-cmp,
 	.tag-cmp {
 		padding: 1rem 2rem;
@@ -73,6 +79,10 @@
 	.tag-cmp {
 		flex-direction: column;
 		margin-top: 3rem;
+
+		.web-text {
+			font-size: medium;
+		}
 
 		p {
 			width: 100%;
