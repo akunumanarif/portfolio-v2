@@ -16,6 +16,8 @@ const scaleVariants = {
 	}
 };
 
+const profilePic = 'https://drive.google.com/file/d/1PNX4s_ABm6nTfn2RevFWwen08cAyFD-u/view?usp=sharing';
+
 const Header = () => (
 	<div className="app__header app__flex">
 		<motion.div
